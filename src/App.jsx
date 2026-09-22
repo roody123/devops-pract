@@ -39,11 +39,9 @@ export default function App() {
 
       <main style={styles.main}>
         <div style={styles.titleSection}>
-<<<<<<< HEAD
+
           <h1 style={styles.title}>Доступные авто рядом</h1>
-=======
-          <h1 style={styles.title}>Доступные авто</h1>
->>>>>>> origin/dev
+
           <p style={styles.subtitle}>Выберите подходящий автомобиль и отправляйтесь в путь</p>
         </div>
 

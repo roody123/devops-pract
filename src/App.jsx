@@ -39,7 +39,11 @@ export default function App() {
 
       <main style={styles.main}>
         <div style={styles.titleSection}>
+<<<<<<< HEAD
           <h1 style={styles.title}>Доступные авто рядом</h1>
+=======
+          <h1 style={styles.title}>Доступные авто</h1>
+>>>>>>> origin/dev
           <p style={styles.subtitle}>Выберите подходящий автомобиль и отправляйтесь в путь</p>
         </div>
 
@@ -49,17 +53,17 @@ export default function App() {
           </div>
         )}
 
-        <CarCard 
-          car={carData} 
-          isBookingActive={isBookingActive} 
-          onStartBooking={handleStartBooking} 
+        <CarCard
+          car={carData}
+          isBookingActive={isBookingActive}
+          onStartBooking={handleStartBooking}
         />
       </main>
 
       {isBookingActive && (
-        <BookingModal 
-          car={carData} 
-          onFinishBooking={handleFinishBooking} 
+        <BookingModal
+          car={carData}
+          onFinishBooking={handleFinishBooking}
         />
       )}
     </div>

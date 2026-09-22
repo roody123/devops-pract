@@ -71,7 +71,7 @@ export default function App() {
 const styles = {
   container: {
     minHeight: '100vh',
-    backgroundColor: '#f8fafc',
+    backgroundColor: '#8fc7ff',
     fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
   },
   main: {

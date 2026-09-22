@@ -39,7 +39,7 @@ export default function App() {
 
       <main style={styles.main}>
         <div style={styles.titleSection}>
-          <h1 style={styles.title}>Доступные авто поблизости</h1>
+          <h1 style={styles.title}>Доступные авто рядом</h1>
           <p style={styles.subtitle}>Выберите подходящий автомобиль и отправляйтесь в путь</p>
         </div>
 

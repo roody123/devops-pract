@@ -8,6 +8,7 @@ export const CarCard = ({ car, isBookingActive, onStartBooking }) => {
         <img
           src={car.image || 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=600&q=80'}
           alt={car.name}
+          style={styles.image}
         />
         <span style={styles.badge}>{car.category}</span>
       </div >
